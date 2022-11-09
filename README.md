@@ -1,10 +1,28 @@
+# Attempt to bring rlucha's purescript-threejs up to date as of 2022-11:
+* PureScript v0.15.4
+* spago v0.20.9
+
+## Build
+```
+spago build
+```
+
+## Run
+```
+open ./index.html in your browser
+```
+
+---
+
+## rlucha's README.md
+
 Purescript simple scene model and geometric operations. Simple ThreeJS bindings included.
 
 This is a personal exploratoty project to learn more Purescript and WebGL.
 
-See it live at [Purescript ThreeJS](https://rlucha.github.io/purescript-threejs/)
+See it live at [Purescript ThreeJS](https://rlucha.github.io/purescript-threejs-archived/#/01)
 
-# Getting started
+## Getting started
 
 1. Install all dependencies:
 ```

@@ -1,40 +1,40 @@
-const rlite = require("rlite-router");
+import rlite from "rlite-router";
 
-const circleStuff = require("./output/Projects.CircleStuff.Main");
-const seaLike = require("./output/Projects.Sealike.Main");
-const frameBound = require("./output/Projects.FrameBound.Main");
-const foo = require("./output/Projects.Foo.Main");
+import { main } from "./output/Projects.CircleStuff.Main";
+import { main as _main } from "./output/Projects.Sealike.Main";
+import { main as __main } from "./output/Projects.FrameBound.Main";
+import { main as ___main } from "./output/Projects.Foo.Main";
 
-const editorFactory = require("./src/Editor/main");
+import { editor as _editor } from "./src/Editor/main";
 
 const route = rlite(notFound, {
   "": function() {
-    circleStuff.main();
+    main();
   },
   "01": function() {
     document.body.className = "theme02";
-    seaLike.main();
+    _main();
   },
   "02": function({ editor }) {
     document.body.className = "theme01";
-    circleStuff.main();
+    main();
     if (editor === "true") {
-      editorFactory.editor();
+      _editor();
     }
   },
   "03": function() {
     document.body.className = "theme01";
-    frameBound.main();
+    __main();
   },
   "04": function() {
     document.body.className = "theme04";
-    foo.main();
+    ___main();
   }
 });
 
 function notFound() {
   document.body.className = "theme01";
-  frameBound.main();
+  __main();
 }
 
 // Hash-based routing
