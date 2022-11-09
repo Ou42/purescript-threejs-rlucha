@@ -12,7 +12,8 @@ import Data.List (List, (..))
 import Data.List as List
 import Data.Traversable as Traversable
 import Effect.Class.Console (log)
-import Math as Math
+-- import Math as Math
+import Data.Number (atan2, cos, sin) as Math
 import Projects.BaseProject (Project)
 import Projects.BaseProject as BaseProject
 import Pure3.Circle as Circle

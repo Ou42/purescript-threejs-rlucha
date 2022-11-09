@@ -9,3 +9,5 @@
 /.psa*
 dist
 !dist/main.js
+.spago
+*.bak

@@ -9,7 +9,8 @@ import Data.Int as Int
 import Data.List (List, (..))
 import Data.List as List
 import Data.Traversable as Traversable
-import Math as Math
+-- import Math as Math
+import Data.Number (cos) as Math
 
 import Pure3.Types (Circle, Point(..))
 import Pure3.Circle as Circle

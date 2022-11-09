@@ -1,8 +1,9 @@
 module Pure3.Line where
 
 import Prelude (class Show)
-import Data.Generic.Rep (class Generic)
-import Data.Generic.Rep.Show (genericShow)
+-- import Data.Generic.Rep (class Generic)
+-- import Data.Generic.Rep.Show (genericShow)
+import Data.Show.Generic (class Generic, genericShow)
 import Data.Newtype (class Newtype)
 
 import Pure3.Point (Point)

@@ -1,7 +1,8 @@
 module Pure3.Interpolate where
 
 import Prelude
-import Math as Math
+-- import Math as Math
+import Data.Number (pi, cos, sin) as Math
 
 import Data.List ((..))
 import Data.List as StrictList

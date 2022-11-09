@@ -7,7 +7,8 @@ import Effect
 import Data.Array as Array
 import Data.List (List)
 import Data.Traversable (traverse, traverse_)
-import Math as Math
+-- import Math as Math
+import Data.Number (cos) as Math
 import Projects.BaseProject as BaseProject
 import Projects.Sealike.SeaMaterial (createSeaMaterial)
 import Pure3.Interpolate as Interpolate
