@@ -14,12 +14,20 @@ to generate this file without the comments in this block.
 , dependencies =
   [ "arrays"
   , "console"
+  , "control"
   , "effect"
+  , "either"
+  , "foldable-traversable"
+  , "foreign"
   , "foreign-generic"
   , "integers"
   , "lists"
+  , "maybe"
+  , "newtype"
   , "numbers"
   , "prelude"
+  , "transformers"
+  , "tuples"
   , "web-html"
   ]
 , packages = ./packages.dhall

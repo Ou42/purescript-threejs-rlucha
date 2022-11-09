@@ -7,7 +7,9 @@ import Foreign.Generic (defaultOptions, genericDecode)
 
 -- import Data.Generic.Rep (class Generic)
 -- import Data.Generic.Rep.Show (genericShow)
-import Data.Show.Generic (class Generic, genericShow)
+-- import Data.Show.Generic (class Generic, genericShow)
+import Data.Generic.Rep (class Generic)
+import Data.Show.Generic (genericShow)
 import Data.Newtype (class Newtype)
 
 opts = defaultOptions { unwrapSingleConstructors = true }

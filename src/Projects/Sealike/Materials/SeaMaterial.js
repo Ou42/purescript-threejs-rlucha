@@ -1,7 +1,7 @@
-var Vector2 = require("three").Vector2
-var ShaderMaterial = require("three").ShaderMaterial
+import { Vector2 } from "three"
+import { ShaderMaterial } from "three"
 
-exports.createSeaMaterial = function(/*cfg*/) {
+export function createSeaMaterial(/*cfg*/) {
   
   var vertexShader =   
     "varying vec4 vertexColor;" + 

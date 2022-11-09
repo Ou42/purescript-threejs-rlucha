@@ -1,8 +1,8 @@
-exports.loadBuildings = function() {
+export function loadBuildings() {
   return JSON.stringify(buildings)
 }
 
-exports.loadStreets = function() {
+export function loadStreets() {
   return JSON.stringify(streets)
 }
 

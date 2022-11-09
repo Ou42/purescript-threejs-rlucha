@@ -2,9 +2,9 @@ module Pure3.Point where
 
 import Prelude
 
--- import Data.Generic.Rep (class Generic)
+import Data.Generic.Rep (class Generic)
 -- import Data.Generic.Rep.Show (genericShow)
-import Data.Show.Generic (class Generic, genericShow)
+import Data.Show.Generic (genericShow)
 import Data.Newtype (class Newtype)
 
 newtype Point = Point { x :: Number, y :: Number, z :: Number }

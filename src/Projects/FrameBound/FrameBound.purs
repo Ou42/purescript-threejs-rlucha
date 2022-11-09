@@ -9,9 +9,9 @@ import Projects.FrameBound.Types
 import Control.Extend ((<<=))
 import Control.Monad.Except (runExcept)
 import Data.Array as Array
--- import Data.Generic.Rep (class Generic)
+import Data.Generic.Rep (class Generic)
 -- import Data.Generic.Rep.Show (genericShow)
-import Data.Show.Generic (class Generic, genericShow)
+import Data.Show.Generic (genericShow)
 import Data.List (List, (..), zipWith, (:))
 import Data.List as List
 import Data.Maybe (fromMaybe)
@@ -22,7 +22,8 @@ import Foreign (ForeignError(..))
 import Foreign.Class (class Decode, class Encode)
 import Foreign.Generic (decodeJSON, defaultOptions, genericDecode, genericDecodeJSON, genericEncode)
 -- import Math as Math
-import Data.Number (pi, degToRad) as Math
+import Data.Number (pi) as Math
+import Three.Math (degToRad) as Math
 import Projects.BaseProject (Project)
 import Projects.BaseProject as BaseProject
 import Projects.FrameBound.MapLoader as MapLoader
